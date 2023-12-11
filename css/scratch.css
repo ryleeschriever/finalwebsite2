@@ -1,0 +1,42 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(30, 71, 232, 0.727);
+}
+.emma{
+    color: grey
+}
+ol{
+    font-family: 'Times New Roman', Times, serif;
+}
+.image{
+    border: 4px solid white;
+    padding: 4px;
+}
+.footer{
+    bottom:0;
+    right:0;
+    left: 0;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    top:0;
+    right:0;
+    left: 0;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 4px dotted black;
+    flex-direction: column;
+}
